@@ -1,25 +1,20 @@
-# Compiled python modules.
-*.pyc
 
+build/
 # Byte-compiled
-_pycache__/
 .cache/
-
-# Poetry, setuptools, PyPI distribution artifacts.
+# Compiled python modules.
+dist/
+*.DS_Store
 /*.egg-info
 .eggs/
-build/
-dist/
-poetry.lock
-
-# Tests
-.pytest_cache/
-
-# Type checking
-.pytype/
-
-# Other
-*.DS_Store
-
-# PyCharm
 .idea
+# Other
+poetry.lock
+# Poetry, setuptools, PyPI distribution artifacts.
+*.pyc
+_pycache__/
+# PyCharm
+.pytest_cache/
+.pytype/
+# Tests
+# Type checking
